@@ -14,7 +14,7 @@
   }
 
   & .laptops {
-    @apply relative md:pb-[172px] xl:pb-[195px];
+    @apply relative;
 
     &::before {
       @apply absolute bottom-0 z-[-1] h-[105px] w-full bg-cover bg-center bg-no-repeat content-[""] xl:h-[175px] smOnly:hidden;

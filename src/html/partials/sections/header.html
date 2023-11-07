@@ -5,13 +5,10 @@
 >
   <div class="container flex items-center gap-5 md:gap-8 xl:gap-10 smOnly:justify-between">
     {% include 'components/logo.html' %}
-    <!-- TODO: move to data.json -->
-    {% if section.text_accent %}
     <p
-      class="border-green rounded-[20px] border bg-green-200 px-3 py-1 text-xs font-semibold md:px-4 md:py-2 md:text-sm"
+      class="rounded-[20px] border border-green bg-green-200 px-3 py-1 text-xs font-semibold md:px-4 md:py-2 md:text-sm"
     >
       {{section.text_accent}}
     </p>
-    {% endif %}
   </div>
 </header>

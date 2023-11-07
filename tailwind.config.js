@@ -44,14 +44,19 @@ module.exports = {
           DEFAULT: '#ffffff', // class="bg-white text-white border-white"
           dark: '#fafafa', // class="bg-white-dark text-white-dark border-white-dark"
         },
-        // #D8F4F0
         green: {
           DEFAULT: '#12a682',
           100: '#edfcfc',
           200: '#d8f4f0',
           300: '#89d3c1',
+          400: '#1da551',
         },
-        blue: '#151e34',
+        blue: {
+          DEFAULT: '#151e34',
+          100: '#5b86a1',
+          200: '#4b5eb8',
+        },
+        purple: '#9c6fe2',
         accent: '#FF6C00', // class="bg-accent text-accent border-accent"
         primary: '#f1f1f1',
         second: '#f2f2f2',
