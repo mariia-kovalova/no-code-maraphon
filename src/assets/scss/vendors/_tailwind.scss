@@ -28,6 +28,10 @@ body {
   @apply py-10 md:py-[60px] xl:py-20;
 }
 
+.section-title {
+  @apply mb-6 text-2xl font-bold md:text-[32px] md:leading-9 xl:text-[44px] xl:leading-[56px];
+}
+
 .btn {
   @apply border border-black p-2 duration-300;
 }

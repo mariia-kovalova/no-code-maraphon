@@ -1,0 +1,22 @@
+{% set section = developer %}
+
+<section class="developer section">
+  <div class="container">
+    {% if section.title %}
+    <h2 class="section-title">{{section.title}}</h2>
+    {% endif %}
+
+    <!--  -->
+    {% if section.description %}
+    <p class="mb-8 max-w-[665px] md:mb-10 md:text-xl xl:mb-[60px]">{{section.description}}</p>
+    {% endif %}
+
+    <!--  -->
+
+    {% if section.text %}
+    <p class="no-code rounded-2xl bg-green p-5 pr-6 text-white md:p-10 xl:mx-auto xl:w-[1008px]">
+      {{section.text}}
+    </p>
+    {% endif %}
+  </div>
+</section>

@@ -1,0 +1,24 @@
+.developer {
+  & .no-code {
+    @apply relative overflow-hidden pb-[calc(61vw)] sm:pb-[293px] md:pb-10 md:pr-[271px] xl:pr-[401px];
+
+    &::before {
+      @apply absolute h-[61vw] w-[calc(115%)] bg-cover bg-center bg-no-repeat content-[""];
+      @apply sm:h-[293px] md:right-0 md:top-0 md:h-full md:w-[304px] smOnly:bottom-0 smOnly:left-0;
+
+      background-image: image-set(
+        '../images/sections/developer/no-code_mobile@1x.webp' 1x,
+        '../images/sections/developer/no-code_mobile@2x.webp' 2x
+      );
+      @media screen and (min-width: 768px) {
+        background-image: image-set(
+          '../images/sections/developer/no-code@1x.webp' 1x,
+          '../images/sections/developer/no-code@2x.webp' 2x
+        );
+      }
+    }
+  }
+}
+
+// h-[284px]
+// h-[183px]
