@@ -1,0 +1,17 @@
+{% set section = header %}
+
+<header
+  class="{{section.id}} absolute left-[50%] translate-x-[-50%] z-[2] w-full pt-5 md:pt-8 xl:pt-10 text-blue"
+>
+  <div class="container flex items-center gap-5 md:gap-8 xl:gap-10 smOnly:justify-between">
+    {% include 'components/logo.html' %}
+    <!-- TODO: move to data.json -->
+    {% if section.text_accent %}
+    <p
+      class="border-green rounded-[20px] border bg-green-200 px-3 py-1 text-xs font-semibold md:px-4 md:py-2 md:text-sm"
+    >
+      {{section.text_accent}}
+    </p>
+    {% endif %}
+  </div>
+</header>
