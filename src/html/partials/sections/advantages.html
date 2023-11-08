@@ -1,6 +1,6 @@
 {% set section = advantages %}
 
-<section class="section">
+<section class="{{section.id}} section">
   <div class="container">
     <h2 class="section-title">{{section.title}}</h2>
     <ul
@@ -24,9 +24,8 @@
       {% endfor %}
     </ul>
 
-    <!-- TODO: data + reuse -->
     <button type="button" class="btn mx-auto w-full md:w-[328px]" data-modal-open>
-      Зареєструватись
+      {{section.btn_modal}}
     </button>
   </div>
 </section>

@@ -13,17 +13,21 @@
     "text_accent": "Безоплатний марафон"
   },
   "hero": {
+    "id": "hero",
+    "form_id": "noCodeForm",
     "subtitle": "для новачків в IT, які хочуть стати розробниками без знань коду",
     "title": { "text": "Створюй круті сайти на", "accent": "Webflow" },
     "text": "За 4 дні створи власний сайт, не пишучи код, та переконайся, що стати айтівцем тобі під силу",
     "text_accent": "Старт: 25 вересня"
   },
   "developer": {
+    "id": "developer",
     "title": "No-code-розробник ",
     "text": "— це айтівець, який створює вебпрограми не через написання коду, а через платформи-конструктори, наприклад Webflow.",
     "text_accent": "Ноу-код - один з найшвидших способів стати частиною IT-сфери. Розробники сайтів та програм потрібні усім, а можливість утримувати цілі команди має не кожен. Тому ноу-кодери стають все більш популярними."
   },
   "advantages": {
+    "id": "advantages",
     "title": "No-code для тебе, якщо хочеш:",
     "advantages_list": [
       {
@@ -42,9 +46,11 @@
         "svg": { "name": "star", "width": 34, "height": 32, "bg": "bg-blue-200" },
         "text": "мати проєкти на <br> фрілансі"
       }
-    ]
+    ],
+    "btn_modal": "Зареєструватись"
   },
   "steps": {
+    "id": "steps",
     "title": "Ось шлях, який ти пройдеш за ці 4 дні",
     "slider": {
       "text_day": "День",
@@ -78,6 +84,8 @@
     }
   },
   "join": {
+    "id": "join",
+    "form_id": "noCodeForm",
     "title": "Приєднуйся зараз і опануй нову IT-професію"
   },
   "footer": {
@@ -619,5 +627,40 @@
       }
     ],
     "btnSubmit": "Зареєструватися"
+  },
+  "no_code_form": {
+    "id": "noCodeForm",
+    "title": "РЕЄСТРУЙСЯ НА МАРАФОН І ОТРИМАЙ БОНУС",
+    "subtitle": {
+      "text": "Конспект “Комбінації клавіш у ",
+      "accent": "Webflow”"
+    },
+    "inputs": [
+      {
+        "type": "text",
+        "name": "name",
+        "placeholder": "Ім'я",
+        "dataField": "name",
+        "required": true,
+        "autocomplete": "name"
+      },
+      {
+        "type": "email",
+        "name": "email",
+        "placeholder": "E-mail",
+        "dataField": "email",
+        "required": true,
+        "autocomplete": "email"
+      },
+      {
+        "type": "tel",
+        "name": "phone",
+        "placeholder": "(063) 000-00-00",
+        "dataField": "phone",
+        "required": true,
+        "autocomplete": "tel"
+      }
+    ],
+    "btnSubmit": "Зареєструватись"
   }
 }

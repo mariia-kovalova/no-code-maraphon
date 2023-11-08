@@ -1,0 +1,3 @@
+{% extends './no-code-form.html' %} {% block formFields %} {% import './macro/input.html' as fields
+%} {% for field in no_code_form.inputs %} {{ fields.inputField(field, formId) }} {% endfor %} {%
+endblock %}

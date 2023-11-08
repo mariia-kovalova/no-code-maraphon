@@ -78,9 +78,8 @@ $(window).on('load', async function () {
     promocode: false,
     radio: false,
     forms: [
-      {
-        formId: 'modalForm',
-      },
+      { formId: 'modalForm' },
+      { formId: 'noCodeForm' },
       // {
       // formId: 'yourFormId',
       // productName: 'yourProductName',

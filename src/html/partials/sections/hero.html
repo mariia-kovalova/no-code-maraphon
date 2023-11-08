@@ -1,7 +1,7 @@
 {% set section = hero %}
 
 <section
-  class="hero bg-green-100 pb-[60px] pt-[72px] md:pb-20 md:pt-[84px] xl:pb-[60px] xl:pt-[100px]"
+  class="{{section.id}} bg-green-100 pb-[60px] pt-[72px] md:pb-20 md:pt-[84px] xl:pb-[60px] xl:pt-[100px]"
 >
   <div class="circle container md:flex md:justify-between">
     <div
@@ -27,6 +27,8 @@
 
     <div
       class="h-[448px] rounded-lg border border-green text-center md:h-[564px] md:w-[336px] xl:w-[416px]"
-    ></div>
+    >
+      {% set formId = section.form_id %} {% include 'components/no-code-formFields.njk' %}
+    </div>
   </div>
 </section>
