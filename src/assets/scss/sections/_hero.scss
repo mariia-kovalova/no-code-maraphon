@@ -5,7 +5,8 @@
     @apply relative z-[1];
 
     &::before {
-      @apply absolute right-[-314px] top-[-426px] z-[-1] h-[768px] w-[801px] bg-cover bg-center bg-no-repeat content-[""] xl:right-[-472px] xl:top-[-429px] xl:h-[1087px] xl:w-[1134px] smOnly:hidden;
+      @apply absolute right-[-314px] top-[-426px] z-[-1] h-[768px] w-[801px] bg-cover bg-center bg-no-repeat content-[""];
+      @apply xl:right-[-472px] xl:top-[-429px] xl:h-[1087px] xl:w-[1134px] smOnly:hidden;
       background-image: image-set(
         '../images/sections/hero/circle@1x.webp' 1x,
         '../images/sections/hero/circle@2x.webp' 2x
