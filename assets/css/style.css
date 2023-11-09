@@ -3360,6 +3360,9 @@ input[type=tel].input-field{
   background-image: -webkit-image-set(url("../images/sections/days/day-4@1x.webp") 1x, url("../images/sections/days/day-4@2x.webp") 2x);
   background-image: image-set("../images/sections/days/day-4@1x.webp" 1x, "../images/sections/days/day-4@2x.webp" 2x);
 }
+.days-slide .text-arr:nth-child(even){
+  font-weight: 700;
+}
 @media (max-width: 767.98px){
   .header a > svg{
     height: 1.5rem;
