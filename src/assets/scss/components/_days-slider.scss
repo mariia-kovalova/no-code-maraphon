@@ -63,6 +63,10 @@ $number_of_slides: 4;
       @apply xl:right-[60px] xl:h-[343px] xl:w-[420px];
     }
 
+    &:nth-child(odd)::after {
+      @apply h-[166px] md:h-[218px] xl:h-[352px];
+    }
+
     @for $i from 1 through $number_of_slides {
       &.day-#{$i}::after {
         background-image: image-set(

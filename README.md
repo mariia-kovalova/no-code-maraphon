@@ -2,7 +2,9 @@
 
 🔗 https://www.figma.com/file/.....
 
-# 🥤 Starter kit for SoftRyzen
+# No Code Marathon
+
+[DEMO](https://mariia-kovalova.github.io/no-code-maraphon/)
 
 ## 1) Запуск збірки
 
