@@ -3,8 +3,8 @@
 /*! purgecss start ignore */
 @import 'vendors/modern-normalize';
 @import 'vendors/intTelInput';
-// @import 'vendors/slick-theme';
-// @import 'vendors/slick';
+@import 'vendors/slick-theme';
+@import 'vendors/slick';
 /*! purgecss end ignore */
 
 @import 'utils/mixins';
@@ -15,7 +15,7 @@
 @import 'components/timer';
 @import 'components/modal';
 @import 'components/cookie-banner';
-@import 'components/days-slide';
+@import 'components/days-slider';
 // @import 'components/accordion';
 // @import 'components/mobile-menu';
 

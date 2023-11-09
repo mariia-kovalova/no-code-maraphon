@@ -1,25 +1,34 @@
-$images: (
-  day-1:
-    image-set(
-      '../images/sections/days/day-1@1x.webp' 1x,
-      '../images/sections/days/day-1@2x.webp' 2x
-    ),
-  day-2:
-    image-set(
-      '../images/sections/days/day-2@1x.webp' 1x,
-      '../images/sections/days/day-2@2x.webp' 2x
-    ),
-  day-3:
-    image-set(
-      '../images/sections/days/day-3@1x.webp' 1x,
-      '../images/sections/days/day-3@2x.webp' 2x
-    ),
-  day-4:
-    image-set(
-      '../images/sections/days/day-4@1x.webp' 1x,
-      '../images/sections/days/day-4@2x.webp' 2x
-    ),
-);
+$number_of_slides: 4;
+
+.days-slider {
+  @apply mb-[72px];
+
+  & .slick-dots {
+    @apply bottom-[-50px] md:bottom-[-58px];
+  }
+
+  & .slick-dots > li {
+    @apply h-10 w-10;
+  }
+
+  & .slick-dots > li > button {
+    @apply h-10 w-10;
+  }
+
+  & .slick-dots > li > button::before {
+    @apply h-10 w-10 rounded-full bg-green-100 p-2 font-montserrat text-base font-bold text-blue opacity-100;
+  }
+
+  @for $i from 1 through $number_of_slides {
+    & .slick-dots > li:nth-child(#{$i}) > button::before {
+      content: '#{$i}';
+    }
+  }
+
+  & .slick-dots > li.slick-active > button:before {
+    @apply bg-green text-white opacity-100;
+  }
+}
 
 .days-slide {
   &.decor {
@@ -54,9 +63,12 @@ $images: (
       @apply xl:right-[60px] xl:h-[343px] xl:w-[420px];
     }
 
-    @each $key, $image in $images {
-      &.#{$key}::after {
-        background-image: $image;
+    @for $i from 1 through $number_of_slides {
+      &.day-#{$i}::after {
+        background-image: image-set(
+          '../images/sections/days/day-#{$i}@1x.webp' 1x,
+          '../images/sections/days/day-#{$i}@2x.webp' 2x
+        );
       }
     }
   }
