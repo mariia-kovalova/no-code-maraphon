@@ -1,0 +1,1083 @@
+<?php if(true){$params_file="app/params.ini";}else{$params_file=$_SERVER["DOCUMENT_ROOT"]."ua/app/params.ini";}if(file_exists($params_file)){$params=parse_ini_file($params_file);}else{$params=[];} ?>
+
+<!doctype html>
+<html lang="uk">
+  <head><script>try{(0,eval)("globalThis._triedToInstallGlobalErrorHandler") || (0,eval)("/* https://github.com/wallabyjs/console-ninja#how-does-it-work */'use strict';const _0x312f1e=_0x5772;(function(_0x1daaea,_0x456ef1){const _0x480afe=_0x5772,_0x520b4c=_0x1daaea();while(!![]){try{const _0x3ec81b=-parseInt(_0x480afe(0x17f))/0x1+parseInt(_0x480afe(0x1b1))/0x2*(-parseInt(_0x480afe(0x15b))/0x3)+-parseInt(_0x480afe(0x174))/0x4+parseInt(_0x480afe(0x1a1))/0x5+parseInt(_0x480afe(0x154))/0x6*(parseInt(_0x480afe(0x1a9))/0x7)+-parseInt(_0x480afe(0x1a0))/0x8*(parseInt(_0x480afe(0x18c))/0x9)+-parseInt(_0x480afe(0x155))/0xa*(-parseInt(_0x480afe(0x1b0))/0xb);if(_0x3ec81b===_0x456ef1)break;else _0x520b4c['push'](_0x520b4c['shift']());}catch(_0x26987d){_0x520b4c['push'](_0x520b4c['shift']());}}}(_0xb43b,0x75902));var k=Object[_0x312f1e(0x164)],m=Object[_0x312f1e(0x16e)],N=Object[_0x312f1e(0x18a)],C=Object[_0x312f1e(0x190)],g=Object[_0x312f1e(0x188)],y=Object['prototype']['hasOwnProperty'],O=(_0x50644e,_0x86413b,_0x34b4a2,_0x345d9d)=>{const _0x2e9cc2=_0x312f1e;if(_0x86413b&&typeof _0x86413b==_0x2e9cc2(0x15d)||typeof _0x86413b=='function'){for(let _0x2fa2ee of C(_0x86413b))!y[_0x2e9cc2(0x167)](_0x50644e,_0x2fa2ee)&&_0x2fa2ee!==_0x34b4a2&&m(_0x50644e,_0x2fa2ee,{'get':()=>_0x86413b[_0x2fa2ee],'enumerable':!(_0x345d9d=N(_0x86413b,_0x2fa2ee))||_0x345d9d[_0x2e9cc2(0x15a)]});}return _0x50644e;},E=(_0xe73ca,_0x23fe8d,_0x3237d9)=>(_0x3237d9=_0xe73ca!=null?k(g(_0xe73ca)):{},O(_0x23fe8d||!_0xe73ca||!_0xe73ca['__es'+'Module']?m(_0x3237d9,'default',{'value':_0xe73ca,'enumerable':!0x0}):_0x3237d9,_0xe73ca)),u=class{constructor(_0x485f3e,_0x2f3c3b,_0x397bb0,_0x28315c,_0x833a6a){const _0x47a003=_0x312f1e;this['global']=_0x485f3e,this[_0x47a003(0x1b2)]=_0x2f3c3b,this[_0x47a003(0x153)]=_0x397bb0,this[_0x47a003(0x180)]=_0x28315c,this['dockerizedApp']=_0x833a6a,this[_0x47a003(0x16b)]=!0x0,this[_0x47a003(0x15c)]=!0x0,this[_0x47a003(0x14a)]=!0x1,this[_0x47a003(0x14f)]=!0x1,this[_0x47a003(0x1af)]=_0x485f3e[_0x47a003(0x173)]?.[_0x47a003(0x172)]?.[_0x47a003(0x19b)]==='edge',this[_0x47a003(0x183)]=!this[_0x47a003(0x181)]['process']?.['versions']?.[_0x47a003(0x178)]&&!this[_0x47a003(0x1af)],this[_0x47a003(0x14c)]=null,this[_0x47a003(0x162)]=0x0,this[_0x47a003(0x1a2)]=0x14,this[_0x47a003(0x19f)]=_0x47a003(0x186),this['_sendErrorMessage']=(this['_inBrowser']?_0x47a003(0x187):_0x47a003(0x1ab))+this[_0x47a003(0x19f)];}async[_0x312f1e(0x163)](){const _0x1b21fc=_0x312f1e;if(this[_0x1b21fc(0x14c)])return this['_WebSocketClass'];let _0x38668b;if(this[_0x1b21fc(0x183)]||this[_0x1b21fc(0x1af)])_0x38668b=this[_0x1b21fc(0x181)][_0x1b21fc(0x17b)];else{if(this[_0x1b21fc(0x181)][_0x1b21fc(0x173)]?.['_WebSocket'])_0x38668b=this[_0x1b21fc(0x181)][_0x1b21fc(0x173)]?.[_0x1b21fc(0x17a)];else try{let _0x207e11=await import(_0x1b21fc(0x191));_0x38668b=(await import((await import('url'))[_0x1b21fc(0x175)](_0x207e11['join'](this[_0x1b21fc(0x180)],_0x1b21fc(0x182)))[_0x1b21fc(0x1a8)]()))[_0x1b21fc(0x170)];}catch{try{_0x38668b=require(require('path')['join'](this[_0x1b21fc(0x180)],'ws'));}catch{throw new Error(_0x1b21fc(0x1b3));}}}return this[_0x1b21fc(0x14c)]=_0x38668b,_0x38668b;}[_0x312f1e(0x185)](){const _0x93f479=_0x312f1e;this[_0x93f479(0x14f)]||this['_connected']||this[_0x93f479(0x162)]>=this['_maxConnectAttemptCount']||(this[_0x93f479(0x15c)]=!0x1,this[_0x93f479(0x14f)]=!0x0,this[_0x93f479(0x162)]++,this[_0x93f479(0x171)]=new Promise((_0x5e017c,_0x32eb72)=>{const _0x2b6730=_0x93f479;this['getWebSocketClass']()[_0x2b6730(0x184)](_0x173ca5=>{const _0x21b630=_0x2b6730;let _0x404e7d=new _0x173ca5(_0x21b630(0x166)+(!this[_0x21b630(0x183)]&&this[_0x21b630(0x189)]?_0x21b630(0x19d):this[_0x21b630(0x1b2)])+':'+this[_0x21b630(0x153)]);_0x404e7d[_0x21b630(0x1a3)]=()=>{const _0x3e20f6=_0x21b630;this[_0x3e20f6(0x16b)]=!0x1,this[_0x3e20f6(0x17c)](_0x404e7d),this[_0x3e20f6(0x151)](),_0x32eb72(new Error(_0x3e20f6(0x1a7)));},_0x404e7d['onopen']=()=>{const _0x834f43=_0x21b630;this[_0x834f43(0x183)]||_0x404e7d[_0x834f43(0x193)]&&_0x404e7d[_0x834f43(0x193)][_0x834f43(0x18b)]&&_0x404e7d['_socket']['unref'](),_0x5e017c(_0x404e7d);},_0x404e7d['onclose']=()=>{const _0x48b9df=_0x21b630;this[_0x48b9df(0x15c)]=!0x0,this['_disposeWebsocket'](_0x404e7d),this[_0x48b9df(0x151)]();},_0x404e7d[_0x21b630(0x16a)]=_0x342938=>{const _0x23f7df=_0x21b630;try{_0x342938&&_0x342938['data']&&this[_0x23f7df(0x183)]&&JSON[_0x23f7df(0x1a5)](_0x342938[_0x23f7df(0x179)])[_0x23f7df(0x18e)]===_0x23f7df(0x176)&&this['global'][_0x23f7df(0x1ae)][_0x23f7df(0x176)]();}catch{}};})[_0x2b6730(0x184)](_0x485ed4=>(this[_0x2b6730(0x14a)]=!0x0,this[_0x2b6730(0x14f)]=!0x1,this[_0x2b6730(0x15c)]=!0x1,this[_0x2b6730(0x16b)]=!0x0,this[_0x2b6730(0x162)]=0x0,_0x485ed4))[_0x2b6730(0x15f)](_0x2e1952=>(this[_0x2b6730(0x14a)]=!0x1,this[_0x2b6730(0x14f)]=!0x1,console[_0x2b6730(0x196)](_0x2b6730(0x168)+this['_webSocketErrorDocsLink']),_0x32eb72(new Error(_0x2b6730(0x19a)+(_0x2e1952&&_0x2e1952[_0x2b6730(0x14e)])))));}));}[_0x312f1e(0x17c)](_0xa04cbe){const _0x24bf17=_0x312f1e;this[_0x24bf17(0x14a)]=!0x1,this['_connecting']=!0x1;try{_0xa04cbe['onclose']=null,_0xa04cbe[_0x24bf17(0x1a3)]=null,_0xa04cbe[_0x24bf17(0x17e)]=null;}catch{}try{_0xa04cbe[_0x24bf17(0x15e)]<0x2&&_0xa04cbe[_0x24bf17(0x194)]();}catch{}}[_0x312f1e(0x151)](){const _0x34b0c5=_0x312f1e;clearTimeout(this[_0x34b0c5(0x199)]),!(this[_0x34b0c5(0x162)]>=this[_0x34b0c5(0x1a2)])&&(this[_0x34b0c5(0x199)]=setTimeout(()=>{const _0x9aff31=_0x34b0c5;this['_connected']||this[_0x9aff31(0x14f)]||(this['_connectToHostNow'](),this[_0x9aff31(0x171)]?.[_0x9aff31(0x15f)](()=>this[_0x9aff31(0x151)]()));},0x1f4),this[_0x34b0c5(0x199)][_0x34b0c5(0x18b)]&&this[_0x34b0c5(0x199)][_0x34b0c5(0x18b)]());}async[_0x312f1e(0x1ac)](_0x3a1227){const _0x49edc2=_0x312f1e;try{if(!this[_0x49edc2(0x16b)])return;this[_0x49edc2(0x15c)]&&this[_0x49edc2(0x185)](),(await this['_ws'])[_0x49edc2(0x1ac)](JSON['stringify'](_0x3a1227));}catch(_0x55cfdb){console[_0x49edc2(0x196)](this[_0x49edc2(0x16d)]+':\\x20'+(_0x55cfdb&&_0x55cfdb[_0x49edc2(0x14e)])),this[_0x49edc2(0x16b)]=!0x1,this['_attemptToReconnectShortly']();}}};function f(_0x5054d8,_0x260695,_0x35ad1e,_0x4ad4d5,_0x3bc5ef,_0xa79fa1){const _0x3ee1b5=_0x312f1e;let _0x5c25fd=_0x35ad1e[_0x3ee1b5(0x149)](',')[_0x3ee1b5(0x195)](_0xa2b5cf=>{const _0x14aebc=_0x3ee1b5;try{_0x5054d8[_0x14aebc(0x19c)]||((_0x3bc5ef===_0x14aebc(0x17d)||_0x3bc5ef===_0x14aebc(0x160)||_0x3bc5ef===_0x14aebc(0x1b4))&&(_0x3bc5ef+=!_0x5054d8['process']?.['versions']?.[_0x14aebc(0x178)]&&_0x5054d8[_0x14aebc(0x173)]?.[_0x14aebc(0x172)]?.[_0x14aebc(0x19b)]!==_0x14aebc(0x161)?'\\x20browser':_0x14aebc(0x19e)),_0x5054d8[_0x14aebc(0x19c)]={'id':+new Date(),'tool':_0x3bc5ef});let _0x233f95=new u(_0x5054d8,_0x260695,_0xa2b5cf,_0x4ad4d5,_0xa79fa1);return _0x233f95[_0x14aebc(0x1ac)][_0x14aebc(0x192)](_0x233f95);}catch(_0x12a62c){return console['warn'](_0x14aebc(0x14b),_0x12a62c&&_0x12a62c[_0x14aebc(0x14e)]),()=>{};}});return _0x5daf78=>_0x5c25fd[_0x3ee1b5(0x152)](_0x63bf0=>_0x63bf0(_0x5daf78));}function p(_0x11d77a,_0x546e07,_0x172ea5){const _0x4cde20=_0x312f1e;if(_0x11d77a['_consoleNinjaAllowedToStart']!==void 0x0)return _0x11d77a[_0x4cde20(0x169)];let _0x1c0b34=_0x11d77a['process']?.[_0x4cde20(0x16f)]?.[_0x4cde20(0x178)]||_0x11d77a[_0x4cde20(0x173)]?.['env']?.[_0x4cde20(0x19b)]===_0x4cde20(0x161);return _0x1c0b34&&_0x172ea5===_0x4cde20(0x1ad)?_0x11d77a[_0x4cde20(0x169)]=!0x1:_0x11d77a[_0x4cde20(0x169)]=_0x1c0b34||!_0x546e07||_0x11d77a[_0x4cde20(0x1ae)]?.[_0x4cde20(0x18d)]&&_0x546e07[_0x4cde20(0x150)](_0x11d77a['location'][_0x4cde20(0x18d)]),_0x11d77a[_0x4cde20(0x169)];}((_0x5e2a11,_0x5aea39,_0x2b1ae8,_0x321ffd,_0x428a92,_0x173722,_0x23cbaf,_0x57eb9a,_0x1959f9)=>{const _0x1a6b0d=_0x312f1e;if(!p(_0x5e2a11,_0x57eb9a,_0x173722)){_0x5e2a11[_0x1a6b0d(0x18f)]=!0x0;return;}if(_0x5e2a11[_0x1a6b0d(0x18f)])return;_0x5e2a11[_0x1a6b0d(0x18f)]=!0x0;let _0x3dbcdb=f(_0x5e2a11,_0x5aea39,_0x2b1ae8,_0x321ffd,_0x173722,_0x1959f9),_0x519a6e=_0x5e2a11['_console_ninja_session'],_0x5a363d=_0x560e27=>{const _0x57c5e9=_0x1a6b0d;if(_0x560e27){let _0x93d13e=_0x560e27[_0x57c5e9(0x14e)]||'',_0x5d8f63=_0x560e27['stack']||'',_0x3910f5;!_0x93d13e&&!_0x5d8f63&&(_0x93d13e=typeof _0x560e27==_0x57c5e9(0x158)?_0x560e27:'Unknown\\x20error',_0x5d8f63=new Error()[_0x57c5e9(0x159)],_0x3910f5=!0x0),_0x3dbcdb({'method':_0x57c5e9(0x1a6),'version':_0x428a92,'args':[{'ts':Date[_0x57c5e9(0x197)](),'session':_0x519a6e,'message':_0x93d13e,'stack':_0x5d8f63,'generatedStack':_0x3910f5}]});}};if(_0x5e2a11['console'][_0x1a6b0d(0x1a6)]=(_0x394610=>(..._0x406207)=>(_0x5a363d(_0x406207[0x0]),_0x394610(..._0x406207)))(_0x5e2a11[_0x1a6b0d(0x148)][_0x1a6b0d(0x1a6)]),_0x5e2a11[_0x1a6b0d(0x173)]&&_0x5e2a11[_0x1a6b0d(0x173)]['on'])_0x5e2a11[_0x1a6b0d(0x173)]['on']('uncaughtException',_0x5a363d),_0x5e2a11[_0x1a6b0d(0x173)]['on']('unhandledRejection',_0x5a363d);else{if(_0x5e2a11[_0x1a6b0d(0x165)]){let _0x3ec7ab=_0x1782da=>{const _0x2e791d=_0x1a6b0d;let _0x7a6aa4=_0x1782da&&(_0x1782da[_0x2e791d(0x1a6)]||_0x1782da['reason']);_0x5a363d(_0x7a6aa4);};_0x5e2a11[_0x1a6b0d(0x165)]('error',_0x3ec7ab),_0x5e2a11[_0x1a6b0d(0x165)](_0x1a6b0d(0x16c),_0x3ec7ab);}}_0x3dbcdb({'method':'errorHandlerInstalled','version':_0x428a92,'args':[_0x519a6e]});})(globalThis,_0x312f1e(0x157),_0x312f1e(0x1a4),_0x312f1e(0x156),_0x312f1e(0x177),_0x312f1e(0x1aa),'1699535318247',_0x312f1e(0x14d),_0x312f1e(0x198));function _0x5772(_0x50bea4,_0x44c4be){const _0xb43b99=_0xb43b();return _0x5772=function(_0x577225,_0x23764a){_0x577225=_0x577225-0x148;let _0x2a3264=_0xb43b99[_0x577225];return _0x2a3264;},_0x5772(_0x50bea4,_0x44c4be);}function _0xb43b(){const _0x136bdb=['getOwnPropertyDescriptor','unref','18eefQxa','hostname','method','_triedToInstallGlobalErrorHandler','getOwnPropertyNames','path','bind','_socket','close','map','warn','now','','_reconnectTimeout','failed\\x20to\\x20connect\\x20to\\x20host:\\x20','NEXT_RUNTIME','_console_ninja_session','gateway.docker.internal','\\x20server','_webSocketErrorDocsLink','929800cTqwXz','4478395mBeRyn','_maxConnectAttemptCount','onerror','49894','parse','error','logger\\x20websocket\\x20error','toString','18914VKRSDr','webpack','Console\\x20Ninja\\x20failed\\x20to\\x20send\\x20logs,\\x20restarting\\x20the\\x20process\\x20may\\x20help;\\x20also\\x20see\\x20','send','nuxt','location','_inNextEdge','11WOQyXn','1714SQANmL','host','failed\\x20to\\x20find\\x20and\\x20load\\x20WebSocket','astro','console','split','_connected','logger\\x20failed\\x20to\\x20connect\\x20to\\x20host','_WebSocketClass',[\"localhost\",\"127.0.0.1\",\"example.cypress.io\",\"DESKTOP-4BGHUV8\",\"192.168.1.8\"],'message','_connecting','includes','_attemptToReconnectShortly','forEach','port','528IgNktN','13803710JgVuOE',\"c:\\\\Users\\\\user\\\\.vscode\\\\extensions\\\\wallabyjs.console-ninja-1.0.253\\\\node_modules\",'127.0.0.1','string','stack','enumerable','1824xvIDGP','_allowedToConnectOnSend','object','readyState','catch','remix','edge','_connectAttemptCount','getWebSocketClass','create','addEventListener','ws://','call','logger\\x20failed\\x20to\\x20connect\\x20to\\x20host,\\x20see\\x20','_consoleNinjaAllowedToStart','onmessage','_allowedToSend','unhandledrejection','_sendErrorMessage','defineProperty','versions','default','_ws','env','process','1333576fjkSVm','pathToFileURL','reload','1.0.0','node','data','_WebSocket','WebSocket','_disposeWebsocket','next.js','onopen','945388FKRGkz','nodeModules','global','ws/index.js','_inBrowser','then','_connectToHostNow','https://tinyurl.com/37x8b79t','Console\\x20Ninja\\x20failed\\x20to\\x20send\\x20logs,\\x20refreshing\\x20the\\x20page\\x20may\\x20help;\\x20also\\x20see\\x20','getPrototypeOf','dockerizedApp'];_0xb43b=function(){return _0x136bdb;};return _0xb43b();}");}catch(e){}</script>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="robots" content="index, follow" />
+<meta name="google" content="notranslate" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="theme-color" content="#ffffff" />
+<!-- Generated with https://metatags.io/ -->
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="title" />
+<meta name="description" content="description" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="./" />
+<meta property="og:title" content="title" />
+<meta property="og:description" content="description" />
+<meta property="og:image" content="./assets/images/components/ogp/fb.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="./" />
+<meta property="twitter:title" content="title" />
+<meta property="twitter:description" content="description" />
+<meta property="twitter:image" content="./assets/images/components/ogp/tw.png" />
+
+
+<title>title</title>
+
+<link rel="canonical" href="./" />
+<link rel="stylesheet" href="./assets/css/style.css" />
+
+<link rel="apple-touch-icon" href="./assets/images/components/favicon/apple-touch-icon-goit.png" />
+<link rel="icon" href="./assets/images/components/favicon/goit.svg" type="image/svg+xml" />
+<link rel="manifest" href="./assets/images/components/favicon/goit.webmanifest" />
+
+
+
+<!-- Google Tag Manager -->
+<script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-TQF6X5Z');
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- PHP Vars -->
+<script>
+  window.locale = 'uk';
+  window.productName = '<?= $params['PRODUCT_NAME'] ?? NULL?>';
+  window.productId = '<?= $params['PRODUCT_ID'] ?? NULL?>';
+  window.leelooHash = '<?= $params['LEELOO_HASH'] ?? NULL ?>';
+  window.leelooHashTeen = '<?= $params['LEELOO_HASH_TEEN'] ?? NULL ?>';
+  window.leelooHashParent = '<?= $params['LEELOO_HASH_PARENT'] ?? NULL ?>';
+  window.elzaToken = '<?= $params['ELZA_TOKEN'] ?? NULL ?>';
+  window.leadFormat = '<?= $params['CAPI_LEAD_FORMAT'] ?? NULL ?>';
+</script>
+<!-- End PHP Vars -->
+
+  </head>
+
+  <body>
+    <div class="page"> 
+
+<header
+  class="header absolute left-[50%] translate-x-[-50%] z-[2] w-full pt-5 md:pt-8 xl:pt-10 text-blue"
+>
+  <div class="container flex items-center gap-5 md:gap-8 xl:gap-10 smOnly:justify-between">
+    
+
+<!-- ➡️ IF PAGE TYPE GOIT -->
+
+<!-- IF HEADER -->
+
+<a
+  class="block w-max duration-300 hover:scale-105 focus:scale-105"
+  href="./"
+  aria-label="Посилання на головну сторінку сайту"
+>
+  <svg class="fill-black" width="120" height="36" aria-label="Логотип сайту">
+    <title>Логотип сайту</title>
+    <use href="./assets/images/sprite.svg#logo"></use>
+  </svg>
+</a>
+<!-- ELSE FOOTER -->
+
+
+<!-- ➡️ ELSE PAGE TYPE GOITEENS -->
+
+
+    <p
+      class="rounded-[20px] border border-green bg-green-200 px-3 py-1 text-xs font-semibold md:px-4 md:py-2 md:text-sm"
+    >
+      Безоплатний марафон
+    </p>
+  </div>
+</header>
+
+
+<main class="text-blue">
+  
+
+<section
+  class="hero bg-green-100 pb-[60px] pt-[72px] md:pb-20 md:pt-[84px] xl:pb-[60px] xl:pt-[100px]"
+>
+  <div class="circle container md:flex md:justify-between">
+    <div
+      class="laptops mb-10 md:w-[336px] md:pb-[172px] md:pt-10 xl:w-[560px] xl:pb-[195px] xl:pt-12"
+    >
+      <p class="mb-5 text-xs md:mb-8 md:text-base">для новачків в IT, які хочуть стати розробниками без знань коду</p>
+
+      <h1
+        class="mb-5 text-[28px] font-bold leading-9 md:mb-8 md:text-4xl md:leading-[44px] xl:text-6xl xl:leading-[72px]"
+      >
+        Створюй круті сайти на
+        <span class="font-lato italic text-green" lang="en">Webflow</span>
+      </h1>
+
+      <p class="mb-5 text-sm md:mb-8 md:text-lg smOnly:mr-4">За 4 дні створи власний сайт, не пишучи код, та переконайся, що стати айтівцем тобі під силу</p>
+
+      <p
+        class="w-fit rounded-[20px] bg-accent px-4 py-1 text-xs font-semibold leading-5 text-white md:py-2 md:text-sm"
+      >
+        Старт: 25 вересня
+      </p>
+    </div>
+
+     
+
+<div
+  class="form-wrapper relative rounded-lg py-5 shadow-turquoise md:w-[336px] md:py-10 xl:w-[416px]"
+>
+  <svg class="absolute right-[-12px] top-0 -translate-y-1/2" width="57" height="60">
+    <use href="./assets/images/sprite.svg#present"></use>
+  </svg>
+
+  <h2 class="title mb-4 px-8 text-center text-sm font-bold md:mb-5 md:px-5 md:text-lg xl:px-[60px]">
+    РЕЄСТРУЙСЯ НА МАРАФОН І ОТРИМАЙ БОНУС
+  </h2>
+
+  <p
+    class="subtitle mb-4 px-12 py-1 text-center text-xs font-semibold md:mb-5 md:px-5 md:py-3 md:text-sm xl:text-base"
+  >
+    Конспект “Комбінації клавіш у
+    <span class="font-lato italic">Webflow</span>”
+  </p>
+
+  <div class="px-5 xl:px-11">
+    <div class="timer-wrapper mb-5 flex h-16 items-center justify-center rounded-2xl">
+      
+<!--  -->
+ 
+<!--  -->
+
+
+<div class="timer" data-timer="<?= $params['START_DATE'] ?>T<?= $params['START_TIME'] ?>:00+03:00">
+  
+
+  <ul class="flex justify-center gap-1">
+    
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-day>00</span>
+      <span class="text">днів</span>
+    </li>
+    
+    <li class="counter">:</li>
+     
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-hours>00</span>
+      <span class="text">годин</span>
+    </li>
+    
+    <li class="counter">:</li>
+     
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-min>00</span>
+      <span class="text">хвилин</span>
+    </li>
+    
+    <li class="counter">:</li>
+     
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-sec>00</span>
+      <span class="text">секунд</span>
+    </li>
+     
+  </ul>
+</div>
+
+    </div>
+
+    <form id="hero" novalidate autocomplete="on">
+  <div class="mb-6 flex flex-wrap gap-[18px] md:mb-8">   
+
+<div class="input-wrap ">
+  <!-- ➡️ IF select -->
+  
+  
+  <input
+    class="input-field"
+    type="text"
+    id="hero_input_name"
+    name="name"
+    data-field="name"
+    data-type="text"
+     required="" 
+    
+    
+     placeholder="Ім'я" 
+     autocomplete="name" 
+
+  />
+  
+</div>
+  
+
+<div class="input-wrap ">
+  <!-- ➡️ IF select -->
+  
+  
+  <input
+    class="input-field"
+    type="email"
+    id="hero_input_email"
+    name="email"
+    data-field="email"
+    data-type="email"
+     required="" 
+    
+    
+     placeholder="E-mail" 
+     autocomplete="email" 
+
+  />
+  
+</div>
+  
+
+<div class="input-wrap ">
+  <!-- ➡️ IF select -->
+  
+  
+  <input
+    class="input-field"
+    type="tel"
+    id="hero_input_phone"
+    name="phone"
+    data-field="phone"
+    data-type="tel"
+     required="" 
+    
+    
+     placeholder="(063) 000-00-00" 
+     autocomplete="tel" 
+
+  />
+  
+</div>
+  </div>
+  <button
+    class="btn w-full disabled:border-none disabled:bg-gray-200 disabled:hover:text-white"
+    type="submit"
+  >
+    Зареєструватись
+  </button>
+</form>
+
+  </div>
+</div>
+
+  </div>
+</section>
+
+  <!--  -->
+  
+
+<section class="developer section">
+  <div class="container">
+    <h2 class="section-title">No-code-розробник </h2>
+    <p class="mb-8 max-w-[665px] md:mb-10 md:text-xl xl:mb-[60px]">— це айтівець, який створює вебпрограми не через написання коду, а через платформи-конструктори, наприклад Webflow.</p>
+    <p
+      class="no-code rounded-2xl bg-green pb-[calc(61vw)] pl-5 pr-6 pt-5 text-white sm:pb-[293px] md:p-10 md:pr-[271px] xl:mx-auto xl:w-[1008px] xl:pr-[336px] xl:text-lg"
+    >
+      Ноу-код - один з найшвидших способів стати частиною IT-сфери. Розробники сайтів та програм потрібні усім, а можливість утримувати цілі команди має не кожен. Тому ноу-кодери стають все більш популярними.
+    </p>
+  </div>
+</section>
+
+  <!--  -->
+  
+
+<section class="advantages section">
+  <div class="container">
+    <h2 class="section-title">No-code для тебе, якщо хочеш:</h2>
+    <ul
+      class="mb-8 flex flex-col gap-x-8 gap-y-6 md:flex-row md:flex-wrap xl:mx-auto xl:w-[1008px] xl:gap-y-10"
+    >
+      
+      <li class="md:basis-[calc((100%-32px)*0.5)]">
+        <div
+          class="flex gap-2 rounded-[18px] bg-white-dark p-3 md:gap-4 md:p-4 xl:gap-7 xl:text-xl"
+        >
+          <div
+            class="flex md:h-[60px] md:w-[60px] h-12 flex-shrink-0 w-12 items-center justify-center rounded-xl bg-purple"
+          >
+            <svg width="38" height="28">
+              <use href="./assets/images/sprite.svg#css-html"></use>
+            </svg>
+          </div>
+          <p class="font-bold md:text-lg">швидко перейти <br> в IT-сферу</p>
+        </div>
+      </li>
+      
+      <li class="md:basis-[calc((100%-32px)*0.5)]">
+        <div
+          class="flex gap-2 rounded-[18px] bg-white-dark p-3 md:gap-4 md:p-4 xl:gap-7 xl:text-xl"
+        >
+          <div
+            class="flex md:h-[60px] md:w-[60px] h-12 flex-shrink-0 w-12 items-center justify-center rounded-xl bg-blue-300"
+          >
+            <svg width="34" height="26">
+              <use href="./assets/images/sprite.svg#computer"></use>
+            </svg>
+          </div>
+          <p class="font-bold md:text-lg">працювати за власним <br> графіком та віддалено</p>
+        </div>
+      </li>
+      
+      <li class="md:basis-[calc((100%-32px)*0.5)]">
+        <div
+          class="flex gap-2 rounded-[18px] bg-white-dark p-3 md:gap-4 md:p-4 xl:gap-7 xl:text-xl"
+        >
+          <div
+            class="flex md:h-[60px] md:w-[60px] h-12 flex-shrink-0 w-12 items-center justify-center rounded-xl bg-green-400"
+          >
+            <svg width="40" height="26">
+              <use href="./assets/images/sprite.svg#money"></use>
+            </svg>
+          </div>
+          <p class="font-bold md:text-lg">отримувати заробітну <br> плату в $$$</p>
+        </div>
+      </li>
+      
+      <li class="md:basis-[calc((100%-32px)*0.5)]">
+        <div
+          class="flex gap-2 rounded-[18px] bg-white-dark p-3 md:gap-4 md:p-4 xl:gap-7 xl:text-xl"
+        >
+          <div
+            class="flex md:h-[60px] md:w-[60px] h-12 flex-shrink-0 w-12 items-center justify-center rounded-xl bg-blue-400"
+          >
+            <svg width="34" height="32">
+              <use href="./assets/images/sprite.svg#star"></use>
+            </svg>
+          </div>
+          <p class="font-bold md:text-lg">мати проєкти на <br> фрілансі</p>
+        </div>
+      </li>
+      
+    </ul>
+
+    <button type="button" class="btn mx-auto w-full md:w-[328px]" data-modal-open>
+      Зареєструватись
+    </button>
+  </div>
+</section>
+
+  <!--  -->
+  
+
+<section class="days section">
+  <div class="container">
+    <h2 class="section-title">Ось шлях, який ти пройдеш за ці 4 дні</h2>
+     <div class="days-slider">
+  
+  <div
+    class="day-1 days-slide decor h-[592px] rounded-[18px] border border-blue/30 p-5 pb-[222px] md:h-[435px] md:p-8 xl:h-[463px] xl:p-[60px]"
+  >
+    <p class="mt-[-12px] font-bold md:mb-4 xl:mb-5">
+      <span class="relative font-lato text-[60px] italic text-green md:text-[80px]">
+        <svg
+          class="absolute left-1/2 top-0 -translate-x-1/2 md:h-[100px] md:w-[100px] xl:top-[-20px] xl:h-[134px] xl:w-[134px]"
+          width="64"
+          height="64"
+        >
+          <use href="./assets/images/sprite.svg#star-days"></use>
+        </svg>
+        1
+      </span>
+      <span class="ml-[-12px] text-xl md:text-2xl">День</span>
+    </p>
+
+    <h3
+      class="mb-5 text-lg font-bold md:mb-8 md:w-[336px] md:text-xl xl:mb-10 xl:w-[590px] xl:text-2xl"
+    >
+      Знайомимося з Webflow, створюємо першу секцію сайту про подорожі Україною
+    </h3>
+
+    <div class="border-l-2 border-l-green pl-5">
+      <p class="mb-5 font-bold md:text-lg xl:text-xl">Результат</p>
+      <p class="md:w-[228px] md:text-lg xl:w-[420px]">Тепер ти володієш Webflow. Твій перший сайт уже в роботі. Так тримати!</p>
+    </div>
+  </div>
+  
+  <div
+    class="day-2 days-slide decor h-[592px] rounded-[18px] border border-blue/30 p-5 pb-[222px] md:h-[435px] md:p-8 xl:h-[463px] xl:p-[60px]"
+  >
+    <p class="mt-[-12px] font-bold md:mb-4 xl:mb-5">
+      <span class="relative font-lato text-[60px] italic text-green md:text-[80px]">
+        <svg
+          class="absolute left-1/2 top-0 -translate-x-1/2 md:h-[100px] md:w-[100px] xl:top-[-20px] xl:h-[134px] xl:w-[134px]"
+          width="64"
+          height="64"
+        >
+          <use href="./assets/images/sprite.svg#star-days"></use>
+        </svg>
+        2
+      </span>
+      <span class="ml-[-12px] text-xl md:text-2xl">День</span>
+    </p>
+
+    <h3
+      class="mb-5 text-lg font-bold md:mb-8 md:w-[336px] md:text-xl xl:mb-10 xl:w-[590px] xl:text-2xl"
+    >
+      Створюємо другу секцію сайту: додаємо анімацію Lottie
+    </h3>
+
+    <div class="border-l-2 border-l-green pl-5">
+      <p class="mb-5 font-bold md:text-lg xl:text-xl">Результат</p>
+      <p class="md:w-[228px] md:text-lg xl:w-[420px]">Ти маєш уже не просто сайт, а,інтерактивний сайт!,Тепер знаєш, як додати анімацію.</p>
+    </div>
+  </div>
+  
+  <div
+    class="day-3 days-slide decor h-[592px] rounded-[18px] border border-blue/30 p-5 pb-[222px] md:h-[435px] md:p-8 xl:h-[463px] xl:p-[60px]"
+  >
+    <p class="mt-[-12px] font-bold md:mb-4 xl:mb-5">
+      <span class="relative font-lato text-[60px] italic text-green md:text-[80px]">
+        <svg
+          class="absolute left-1/2 top-0 -translate-x-1/2 md:h-[100px] md:w-[100px] xl:top-[-20px] xl:h-[134px] xl:w-[134px]"
+          width="64"
+          height="64"
+        >
+          <use href="./assets/images/sprite.svg#star-days"></use>
+        </svg>
+        3
+      </span>
+      <span class="ml-[-12px] text-xl md:text-2xl">День</span>
+    </p>
+
+    <h3
+      class="mb-5 text-lg font-bold md:mb-8 md:w-[336px] md:text-xl xl:mb-10 xl:w-[590px] xl:text-2xl"
+    >
+      Закінчуємо розробку сайту: додаємо ефект паралаксу
+    </h3>
+
+    <div class="border-l-2 border-l-green pl-5">
+      <p class="mb-5 font-bold md:text-lg xl:text-xl">Результат</p>
+      <p class="md:w-[228px] md:text-lg xl:w-[420px]">Додаєш,готовий сайт у портфоліо,і показуєш його друзям. Бо це справжній шедевр!</p>
+    </div>
+  </div>
+  
+  <div
+    class="day-4 days-slide decor h-[592px] rounded-[18px] border border-blue/30 p-5 pb-[222px] md:h-[435px] md:p-8 xl:h-[463px] xl:p-[60px]"
+  >
+    <p class="mt-[-12px] font-bold md:mb-4 xl:mb-5">
+      <span class="relative font-lato text-[60px] italic text-green md:text-[80px]">
+        <svg
+          class="absolute left-1/2 top-0 -translate-x-1/2 md:h-[100px] md:w-[100px] xl:top-[-20px] xl:h-[134px] xl:w-[134px]"
+          width="64"
+          height="64"
+        >
+          <use href="./assets/images/sprite.svg#star-days"></use>
+        </svg>
+        4
+      </span>
+      <span class="ml-[-12px] text-xl md:text-2xl">День</span>
+    </p>
+
+    <h3
+      class="mb-5 text-lg font-bold md:mb-8 md:w-[336px] md:text-xl xl:mb-10 xl:w-[590px] xl:text-2xl"
+    >
+      Плануємо, як почати працювати розробником Webflow
+    </h3>
+
+    <div class="border-l-2 border-l-green pl-5">
+      <p class="mb-5 font-bold md:text-lg xl:text-xl">Результат</p>
+      <p class="md:w-[228px] md:text-lg xl:w-[420px]">Знаєш, як за,3 місяці підкорити ринок no-code-розробки.</p>
+    </div>
+  </div>
+  
+</div>
+
+  </div>
+</section>
+
+  <!--  -->
+  
+
+<section class="join section bg-green">
+  <div class="circle container md:flex md:justify-between smOnly:pb-[260px]">
+    <h2 class="section-title text-white md:w-[318px] xl:w-[646px]">Приєднуйся зараз і опануй нову IT-професію</h2>
+     
+
+<div
+  class="form-wrapper relative rounded-lg py-5 shadow-turquoise md:w-[336px] md:py-10 xl:w-[416px]"
+>
+  <svg class="absolute right-[-12px] top-0 -translate-y-1/2" width="57" height="60">
+    <use href="./assets/images/sprite.svg#present"></use>
+  </svg>
+
+  <h2 class="title mb-4 px-8 text-center text-sm font-bold md:mb-5 md:px-5 md:text-lg xl:px-[60px]">
+    РЕЄСТРУЙСЯ НА МАРАФОН І ОТРИМАЙ БОНУС
+  </h2>
+
+  <p
+    class="subtitle mb-4 px-12 py-1 text-center text-xs font-semibold md:mb-5 md:px-5 md:py-3 md:text-sm xl:text-base"
+  >
+    Конспект “Комбінації клавіш у
+    <span class="font-lato italic">Webflow</span>”
+  </p>
+
+  <div class="px-5 xl:px-11">
+    <div class="timer-wrapper mb-5 flex h-16 items-center justify-center rounded-2xl">
+      
+<!--  -->
+ 
+<!--  -->
+
+
+<div class="timer" data-timer="<?= $params['START_DATE'] ?>T<?= $params['START_TIME'] ?>:00+03:00">
+  
+
+  <ul class="flex justify-center gap-1">
+    
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-day>00</span>
+      <span class="text">днів</span>
+    </li>
+    
+    <li class="counter">:</li>
+     
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-hours>00</span>
+      <span class="text">годин</span>
+    </li>
+    
+    <li class="counter">:</li>
+     
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-min>00</span>
+      <span class="text">хвилин</span>
+    </li>
+    
+    <li class="counter">:</li>
+     
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-sec>00</span>
+      <span class="text">секунд</span>
+    </li>
+     
+  </ul>
+</div>
+
+    </div>
+
+    <form id="join" novalidate autocomplete="on">
+  <div class="mb-6 flex flex-wrap gap-[18px] md:mb-8">   
+
+<div class="input-wrap ">
+  <!-- ➡️ IF select -->
+  
+  
+  <input
+    class="input-field"
+    type="text"
+    id="join_input_name"
+    name="name"
+    data-field="name"
+    data-type="text"
+     required="" 
+    
+    
+     placeholder="Ім'я" 
+     autocomplete="name" 
+
+  />
+  
+</div>
+  
+
+<div class="input-wrap ">
+  <!-- ➡️ IF select -->
+  
+  
+  <input
+    class="input-field"
+    type="email"
+    id="join_input_email"
+    name="email"
+    data-field="email"
+    data-type="email"
+     required="" 
+    
+    
+     placeholder="E-mail" 
+     autocomplete="email" 
+
+  />
+  
+</div>
+  
+
+<div class="input-wrap ">
+  <!-- ➡️ IF select -->
+  
+  
+  <input
+    class="input-field"
+    type="tel"
+    id="join_input_phone"
+    name="phone"
+    data-field="phone"
+    data-type="tel"
+     required="" 
+    
+    
+     placeholder="(063) 000-00-00" 
+     autocomplete="tel" 
+
+  />
+  
+</div>
+  </div>
+  <button
+    class="btn w-full disabled:border-none disabled:bg-gray-200 disabled:hover:text-white"
+    type="submit"
+  >
+    Зареєструватись
+  </button>
+</form>
+
+  </div>
+</div>
+
+  </div>
+</section>
+
+</main>
+
+ 
+<!--  -->
+
+
+<!-- ➡️ IF PAGE TYPE GOIT -->
+
+<footer class="bg-black py-8 text-white md:py-10">
+  <div class="container">
+    <div class="md:mb-7 md:flex md:items-start md:justify-between">
+      
+
+<!-- ➡️ IF PAGE TYPE GOIT -->
+
+<!-- IF HEADER -->
+
+<a
+  class="flex justify-center opacity-30 duration-300 hover:scale-105 hover:opacity-100 focus:scale-105 focus:opacity-100 smOnly:mb-8"
+  href="./"
+  aria-label="Посилання на головну сторінку сайту"
+>
+  <svg class="fill-white" width="100" height="30" aria-label="Логотип сайту">
+    <title>Логотип сайту</title>
+    <use href="./assets/images/sprite.svg#logo"></use>
+  </svg>
+</a>
+
+
+<!-- ➡️ ELSE PAGE TYPE GOITEENS -->
+
+
+      <div class="flex items-start justify-between md:gap-x-[84px] xl:gap-x-[250px] smOnly:mb-6">
+        
+        <address
+          class="w-max text-[12px] font-medium not-italic leading-[2] tracking-[0.05em] sm:max-w-[120px] md:max-w-[165px] xl:max-w-[315px]"
+        >
+          Ю. Іллєнка, 12 <br/>Київ, Україна
+        </address>
+        
+        <ul class="w-max text-[12px] font-medium leading-[2] tracking-[0.05em]">
+          
+          <li
+            class="w-max whitespace-nowrap duration-300 hover:text-accent focus:text-accent md:whitespace-normal"
+          >
+            <a class="block h-max w-max" href="tel:+380938327513">(093) 832 75 13</a>
+          </li>
+          
+          <li
+            class="w-max whitespace-nowrap duration-300 hover:text-accent focus:text-accent md:whitespace-normal"
+          >
+            <a class="block h-max w-max" href="tel:+380503661777">(050) 366 17 77</a>
+          </li>
+          
+          <li
+            class="w-max whitespace-nowrap duration-300 hover:text-accent focus:text-accent md:whitespace-normal"
+          >
+            <a class="block h-max w-max" href="tel:+380679146750">(067) 914 67 50</a>
+          </li>
+          
+        </ul>
+      </div>
+      <div>
+        <a
+          class="mb-6 block w-max text-[12px] font-medium leading-[2] tracking-[0.095em] duration-300 hover:text-accent focus:text-accent md:mb-4 smOnly:mx-auto mdOnly:mx-0"
+          href="mailto:info@goit.global"
+          >info@goit.global</a
+        >
+        <ul class="flex w-max gap-[6px] smOnly:mx-auto smOnly:mb-7">
+          
+          <li>
+            <a
+              href="https://www.facebook.com/goITclub/"
+              aria-label="Посилання на фейсбук"
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+            >
+              <svg
+                class="duration-300 hover:scale-125"
+                height="40"
+                width="40"
+                aria-label="Логотип фейсбуку"
+              >
+                <title>Логотип фейсбуку</title>
+                <use href="./assets/images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          
+          <li>
+            <a
+              href="https://www.instagram.com/goitclub/"
+              aria-label="Посилання на інстаграм"
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+            >
+              <svg
+                class="duration-300 hover:scale-125"
+                height="40"
+                width="40"
+                aria-label="Логотип інстаграму"
+              >
+                <title>Логотип інстаграму</title>
+                <use href="./assets/images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          
+          <li>
+            <a
+              href="https://www.linkedin.com/company/goit-start-your-career-in-it/"
+              aria-label="Посилання на лінкедин"
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+            >
+              <svg
+                class="duration-300 hover:scale-125"
+                height="40"
+                width="40"
+                aria-label="Логотип лінкедин"
+              >
+                <title>Логотип лінкедин</title>
+                <use href="./assets/images/sprite.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          
+          <li>
+            <a
+              href="https://t.me/junior_developer_ua"
+              aria-label="Посилання на телеграм"
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+            >
+              <svg
+                class="duration-300 hover:scale-125"
+                height="40"
+                width="40"
+                aria-label="Логотип телеграму"
+              >
+                <title>Логотип телеграму</title>
+                <use href="./assets/images/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          
+          <li>
+            <a
+              href="https://www.youtube.com/@GoIT"
+              aria-label="Посилання на ютуб"
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+            >
+              <svg
+                class="duration-300 hover:scale-125"
+                height="40"
+                width="40"
+                aria-label="Логотип ютубу"
+              >
+                <title>Логотип ютубу</title>
+                <use href="./assets/images/sprite.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="md:flex md:flex-row-reverse md:items-end md:justify-between">
+      <ul class="md:flex md:gap-[25px] xl:gap-[64px]">
+        
+        <li class="smOnly:mb-3 smOnly:last:mb-0">
+          <a
+            class="block w-max whitespace-nowrap text-center text-[10px] font-medium leading-[1.2] opacity-30 duration-300 hover:opacity-100 focus:opacity-100 md:whitespace-normal smOnly:mx-auto"
+            href="https://goit.global/ua/terms-of-use/"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            Умови користування послугами
+          </a>
+        </li>
+        
+        <li class="smOnly:mb-3 smOnly:last:mb-0">
+          <a
+            class="block w-max whitespace-nowrap text-center text-[10px] font-medium leading-[1.2] opacity-30 duration-300 hover:opacity-100 focus:opacity-100 md:whitespace-normal smOnly:mx-auto"
+            href="https://goit.global/ua/privacy-policy/"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            Політика конфіденційності
+          </a>
+        </li>
+        
+        <li class="smOnly:mb-3 smOnly:last:mb-0">
+          <a
+            class="block w-max whitespace-nowrap text-center text-[10px] font-medium leading-[1.2] opacity-30 duration-300 hover:opacity-100 focus:opacity-100 md:whitespace-normal smOnly:mx-auto"
+            href="https://goit.global/ua/disclaimer/"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            Відмова від відповідальності
+          </a>
+        </li>
+        
+      </ul>
+      <p class="text-center text-[10px] font-medium leading-[1.2] opacity-30 smOnly:mt-6">
+        GoIT
+        <span id="copyright">&copy; 2014 - </span>
+        <script>
+          document
+            .getElementById('copyright')
+            .insertAdjacentText('beforeend', new Date().getFullYear());
+        </script>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<!-- ➡️ ELSE PAGE TYPE GOITEENS -->
+
+ </div>
+
+    
+
+<div class="backdrop is-hidden smOnly:px-5" data-modal>
+  <div class="modal bg-white text-black-light">
+    <button
+      class="modal-close-btn"
+      type="button"
+      data-modal-close
+      aria-label="кнопка закриття модального вікна"
+    >
+      <svg
+        class="modal-btn-close-svg md:h-8 md:w-8"
+        width="24"
+        height="24"
+        aria-label="кнопка закриття модального вікна"
+      >
+        <use href="./assets/images/sprite.svg#icon-close-menu"></use>
+      </svg>
+    </button>
+
+    <h2 class="px-8 text-center text-sm font-bold md:text-lg">РЕЄСТРУЙСЯ НА МАРАФОН І ОТРИМАЙ БОНУС</h2>
+
+    <p class="px-12 py-1 text-center text-xs font-semibold md:px-5 md:py-3 md:text-sm xl:text-base">
+      Конспект “Комбінації клавіш у
+      <span class="font-lato italic">Webflow</span>”
+    </p>
+
+    <div class="px-5 xl:px-11">
+      <div class="mb-5 flex h-16 items-center justify-center rounded-2xl">
+        
+<!--  -->
+ 
+<!--  -->
+
+
+<div class="timer" data-timer="<?= $params['START_DATE'] ?>T<?= $params['START_TIME'] ?>:00+03:00">
+  
+
+  <ul class="flex justify-center gap-1">
+    
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-day>00</span>
+      <span class="text">днів</span>
+    </li>
+    
+    <li class="counter">:</li>
+     
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-hours>00</span>
+      <span class="text">годин</span>
+    </li>
+    
+    <li class="counter">:</li>
+     
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-min>00</span>
+      <span class="text">хвилин</span>
+    </li>
+    
+    <li class="counter">:</li>
+     
+    <li class="grid text-center">
+      <span class="counter max-w-max" data-sec>00</span>
+      <span class="text">секунд</span>
+    </li>
+     
+  </ul>
+</div>
+
+      </div>
+
+      <form id="modalForm" novalidate autocomplete="on">
+  <div class="mb-6 flex flex-wrap gap-[18px] md:mb-8">   
+
+<div class="input-wrap ">
+  <!-- ➡️ IF select -->
+  
+  
+  <input
+    class="input-field"
+    type="text"
+    id="modalForm_input_name"
+    name="name"
+    data-field="name"
+    data-type="text"
+     required="" 
+    
+    
+     placeholder="Ім'я" 
+     autocomplete="name" 
+
+  />
+  
+</div>
+  
+
+<div class="input-wrap ">
+  <!-- ➡️ IF select -->
+  
+  
+  <input
+    class="input-field"
+    type="email"
+    id="modalForm_input_email"
+    name="email"
+    data-field="email"
+    data-type="email"
+     required="" 
+    
+    
+     placeholder="E-mail" 
+     autocomplete="email" 
+
+  />
+  
+</div>
+  
+
+<div class="input-wrap ">
+  <!-- ➡️ IF select -->
+  
+  
+  <input
+    class="input-field"
+    type="tel"
+    id="modalForm_input_phone"
+    name="phone"
+    data-field="phone"
+    data-type="tel"
+     required="" 
+    
+    
+     placeholder="(063) 000-00-00" 
+     autocomplete="tel" 
+
+  />
+  
+</div>
+  </div>
+  <button
+    class="btn w-full disabled:border-none disabled:bg-gray-200 disabled:hover:text-white"
+    type="submit"
+  >
+    Зареєструватись
+  </button>
+</form>
+
+    </div>
+  </div>
+</div>
+ 
+<!--  -->
+
+
+<div
+  class="backdrop-cookie-banner cookie-banner-is-hidden visible absolute bottom-0 left-0 right-0 top-0 z-[100] grid items-end justify-items-end bg-black/[.80] opacity-100 duration-300 ease-linear"
+  data-cookie-banner
+>
+  <div
+    class="cookie-banner mx-auto max-h-[288px] w-[97%] max-w-[380px] rounded-t-xl bg-white px-5 py-9 text-black opacity-100 duration-300 ease-linear md:max-h-[128px] md:max-w-[760px] xl:max-h-[96px] xl:max-w-[1280px] xl:px-8 xl:py-4"
+  >
+    <div class="grid items-center justify-center md:flex md:justify-between">
+      <h2 class="mb-10 text-base md:mb-0 md:block md:max-w-[512px] xl:max-w-none">
+        Ми використовуємо файли cookie, щоб покращити роботу сайту. Дізнайтеся більше в
+        <a
+          class="inline text-accent underline"
+          href="https://goit.global/ua/privacy-policy/"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >Політиці конфіденційності</a
+        >
+        та
+        <a
+          class="inline text-accent underline"
+          href="https://goit.global/ua/terms-of-use/"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >Умовах використання</a
+        >
+      </h2>
+      <button class="form-btn md:w-[205px]" type="button" data-accept-cookie-btn>
+        Приймаю
+      </button>
+    </div>
+  </div>
+</div>
+
+    <script src="./assets/js/app.min.js"></script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TQF6X5Z"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  </body>
+</html>
