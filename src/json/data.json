@@ -14,7 +14,6 @@
   },
   "hero": {
     "id": "hero",
-    "form_id": "noCodeForm",
     "subtitle": "для новачків в IT, які хочуть стати розробниками без знань коду",
     "title": { "text": "Створюй круті сайти на", "accent": "Webflow" },
     "text": "За 4 дні створи власний сайт, не пишучи код, та переконайся, що стати айтівцем тобі під силу",
@@ -35,7 +34,7 @@
         "text": "швидко перейти <br> в IT-сферу"
       },
       {
-        "svg": { "name": "computer", "width": 34, "height": 26, "bg": "bg-blue-100" },
+        "svg": { "name": "computer", "width": 34, "height": 26, "bg": "bg-blue-300" },
         "text": "працювати за власним <br> графіком та віддалено"
       },
       {
@@ -43,7 +42,7 @@
         "text": "отримувати заробітну <br> плату в $$$"
       },
       {
-        "svg": { "name": "star", "width": 34, "height": 32, "bg": "bg-blue-200" },
+        "svg": { "name": "star", "width": 34, "height": 32, "bg": "bg-blue-400" },
         "text": "мати проєкти на <br> фрілансі"
       }
     ],
@@ -85,7 +84,6 @@
   },
   "join": {
     "id": "join",
-    "form_id": "noCodeForm",
     "title": "Приєднуйся зараз і опануй нову IT-професію"
   },
   "footer": {
@@ -473,25 +471,24 @@
         ]
       },
       "startDate": {
-        "active": false,
+        "active": true,
         "count": "<?= $params['START_DATE'] ?>T<?= $params['START_TIME'] ?>:00+03:00",
-        "text": "Some title",
         "items": [
           {
             "attribute": "data-day",
-            "text": "day"
+            "text": "днів"
           },
           {
             "attribute": "data-hours",
-            "text": "hours"
+            "text": "годин"
           },
           {
             "attribute": "data-min",
-            "text": "min"
+            "text": "хвилин"
           },
           {
             "attribute": "data-sec",
-            "text": "sec"
+            "text": "секунд"
           }
         ]
       }
@@ -572,68 +569,18 @@
       }
     }
   },
-  "FORM_EXPAMPLE": "Переведенные формы лежат в allTranslatedForm.json",
   "form": {
-    "id": "modalForm",
-    "btnCloseAria": "кнопка закриття модального вікна",
-    "title": "Реєстрація",
-    "steps": ["1", "2", "3"],
-    "inputs": [
-      {
-        "title": "Ім'я *",
-        "type": "text",
-        "name": "name",
-        "placeholder": "Ім'я",
-        "dataField": "name",
-        "required": true,
-        "autocomplete": "name"
-      },
-      {
-        "title": "Телефон *",
-        "type": "tel",
-        "name": "phone",
-        "placeholder": "",
-        "dataField": "phone",
-        "required": true,
-        "autocomplete": "tel"
-      },
-      {
-        "title": "Пошта *",
-        "type": "email",
-        "name": "email",
-        "placeholder": "email@gmail.com",
-        "dataField": "email",
-        "required": true,
-        "autocomplete": "email"
-      },
-      {
-        "title": "Я погоджуюся на обробку моїх персональних даних у маркетингових і комерційних цілях відповідно до ",
-        "type": "checkbox",
-        "name": "agree",
-        "dataField": "checkbox",
-        "required": true,
-        "class": "input-wrap-checkbox",
-        "linkSeparator": "та",
-        "links": [
-          {
-            "text": "Політики конфіденційності",
-            "href": "https://goit.global/ua/privacy-policy/"
-          },
-          {
-            "text": "Умов користування",
-            "href": "https://goit.global/ua/terms-of-use/"
-          }
-        ]
-      }
-    ],
-    "btnSubmit": "Зареєструватися"
-  },
-  "no_code_form": {
-    "id": "noCodeForm",
+    "modal": {
+      "id": "modalForm",
+      "btnCloseAria": "кнопка закриття модального вікна",
+      "title": "РЕЄСТРАЦІЯ"
+    },
+
     "title": "РЕЄСТРУЙСЯ НА МАРАФОН І ОТРИМАЙ БОНУС",
     "subtitle": {
-      "text": "Конспект “Комбінації клавіш у ",
-      "accent": "Webflow”"
+      "text_1": "Конспект “Комбінації клавіш у",
+      "accent": "Webflow",
+      "text_2": "”"
     },
     "inputs": [
       {

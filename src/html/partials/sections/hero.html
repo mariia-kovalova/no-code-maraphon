@@ -25,10 +25,6 @@
       </p>
     </div>
 
-    <div
-      class="h-[448px] rounded-lg border border-green text-center md:h-[564px] md:w-[336px] xl:w-[416px]"
-    >
-      {% set formId = section.form_id %} {% include 'components/no-code-formFields.njk' %}
-    </div>
+    {% set formId = section.id %} {% include 'components/section-form.html' %}
   </div>
 </section>

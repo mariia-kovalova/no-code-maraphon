@@ -23,6 +23,7 @@ module.exports = {
     // SHADOW
     boxShadow: {
       orange: '2px 8px 29px rgba(240, 127, 46, 0.2)', // class="shadow-orange"
+      turquoise: '0px 2px 14px 0px rgba(50, 190, 203, 0.30)',
     },
     // THEME
     extend: {
@@ -50,11 +51,14 @@ module.exports = {
           200: '#d8f4f0',
           300: '#89d3c1',
           400: '#1da551',
+          500: '#aee7d9',
         },
         blue: {
           DEFAULT: '#151e34',
-          100: '#5b86a1',
-          200: '#4b5eb8',
+          100: '#b2b9cb',
+          200: '#afb2b2',
+          300: '#5b86a1',
+          400: '#4b5eb8',
         },
         purple: '#9c6fe2',
         accent: '#FF6C00', // class="bg-accent text-accent border-accent"

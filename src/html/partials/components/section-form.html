@@ -1,0 +1,28 @@
+{% set form = form %}
+
+<div
+  class="form-wrapper relative rounded-lg py-5 shadow-turquoise md:w-[336px] md:py-10 xl:w-[416px]"
+>
+  <svg class="absolute right-[-12px] top-0 -translate-y-1/2" width="57" height="60">
+    <use href="./assets/images/sprite.svg#present"></use>
+  </svg>
+
+  <h2 class="title mb-4 px-8 text-center text-sm font-bold md:mb-5 md:px-5 md:text-lg xl:px-[60px]">
+    {{form.title}}
+  </h2>
+
+  <p
+    class="subtitle mb-4 px-12 py-1 text-center text-xs font-semibold md:mb-5 md:px-5 md:py-3 md:text-sm"
+  >
+    {{form.subtitle.text_1}}
+    <span class="font-lato italic">{{form.subtitle.accent}}</span>{{form.subtitle.text_2}}
+  </p>
+
+  <div class="px-5 xl:px-11">
+    <div class="timer-wrapper mb-5 flex h-16 items-center justify-center rounded-2xl">
+      {% include 'components/timer.html' %}
+    </div>
+
+    {% include './formFields.njk' %}
+  </div>
+</div>

@@ -26,4 +26,20 @@
       );
     }
   }
+
+  & .form-wrapper {
+    @apply bg-green-100;
+
+    & .subtitle {
+      @apply bg-green text-white;
+    }
+
+    & .timer-wrapper {
+      @apply bg-green-300;
+    }
+
+    & input {
+      @apply border-blue-100 text-blue placeholder:text-blue-200;
+    }
+  }
 }

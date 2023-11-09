@@ -3,10 +3,6 @@
 <section class="{{section.id}} section bg-green">
   <div class="circle container md:flex md:justify-between smOnly:pb-[260px]">
     <h2 class="section-title text-white md:w-[318px] xl:w-[646px]">{{section.title}}</h2>
-    <div
-      class="h-[448px] rounded-lg border border-white text-center md:h-[564px] md:w-[336px] xl:w-[416px]"
-    >
-      {% set formId = section.form_id %} {% include 'components/no-code-formFields.njk' %}
-    </div>
+    {% set formId = section.id %} {% include 'components/section-form.html' %}
   </div>
 </section>

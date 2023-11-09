@@ -6,16 +6,19 @@
 <!--  -->
 {% endif %}
 
-<div data-timer="{{component.count}}">
+<div class="timer" data-timer="{{component.count}}">
+  {% if component.text%}
   <p>{{component.text}}</p>
-  <ul class="flex gap-4">
+  {% endif %}
+
+  <ul class="flex justify-center gap-1">
     {% for item in component.items %}
-    <li class="grid">
-      <span class="max-w-max" {{item.attribute}}>00</span>
-      <span>{{item.text}}</span>
+    <li class="grid text-center">
+      <span class="counter max-w-max" {{item.attribute}}>00</span>
+      <span class="text">{{item.text}}</span>
     </li>
     {% if not loop.last %}
-    <li>:</li>
+    <li class="counter">:</li>
     {% endif %} {% endfor %}
   </ul>
 </div>

@@ -79,7 +79,8 @@ $(window).on('load', async function () {
     radio: false,
     forms: [
       { formId: 'modalForm' },
-      { formId: 'noCodeForm' },
+      { formId: 'hero' },
+      { formId: 'join' },
       // {
       // formId: 'yourFormId',
       // productName: 'yourProductName',

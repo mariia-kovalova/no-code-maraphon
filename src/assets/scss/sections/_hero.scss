@@ -25,4 +25,24 @@
       );
     }
   }
+
+  & .form-wrapper {
+    @apply bg-green;
+
+    & .title {
+      @apply text-white;
+    }
+
+    & .subtitle {
+      @apply bg-green-100;
+    }
+
+    & .timer-wrapper {
+      @apply bg-white/50;
+    }
+
+    & input {
+      @apply border-white text-white placeholder:text-green-500;
+    }
+  }
 }
