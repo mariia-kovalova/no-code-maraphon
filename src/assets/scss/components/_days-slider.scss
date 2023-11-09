@@ -72,4 +72,8 @@ $number_of_slides: 4;
       }
     }
   }
+
+  & .text-arr:nth-child(even) {
+    @apply font-bold;
+  }
 }

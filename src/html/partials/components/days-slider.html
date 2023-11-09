@@ -25,7 +25,11 @@
 
     <div class="border-l-2 border-l-green pl-5">
       <p class="mb-5 font-bold md:text-lg xl:text-xl">{{slide.text_result}}</p>
-      <p class="md:w-[228px] md:text-lg xl:w-[420px]">{{slide.text}}</p>
+      <p class="md:w-[228px] md:text-lg xl:w-[420px]">
+        {% for item in slide.text %}
+        <span class="text-arr">{{item}}</span>
+        {% endfor %}
+      </p>
     </div>
   </div>
   {% endfor %}
