@@ -1,0 +1,28 @@
+<div
+  class="days-slide decor day-{{slide.number}} rounded-[18px] border border-blue/30 p-5 pb-[222px] md:p-8 xl:p-[60px]"
+>
+  <p class="mt-[-12px] font-bold md:mb-4 xl:mb-5">
+    <span class="relative font-lato text-[60px] italic text-green md:text-[80px]">
+      <svg
+        class="absolute left-1/2 top-0 -translate-x-1/2 md:h-[100px] md:w-[100px] xl:top-[-20px] xl:h-[134px] xl:w-[134px]"
+        width="64"
+        height="64"
+      >
+        <use href="./assets/images/sprite.svg#star-days"></use>
+      </svg>
+      {{slide.number}}
+    </span>
+    <span class="ml-[-12px] text-xl md:text-2xl">{{slide.text_day}}</span>
+  </p>
+
+  <h3
+    class="mb-5 text-lg font-bold md:mb-8 md:w-[336px] md:text-xl xl:mb-10 xl:w-[590px] xl:text-2xl"
+  >
+    {{slide.title}}
+  </h3>
+
+  <div class="border-l-2 border-l-green pl-5">
+    <p class="mb-5 font-bold md:text-lg xl:text-xl">{{slide.text_result}}</p>
+    <p class="md:w-[228px] md:text-lg xl:w-[420px]">{{slide.text}}</p>
+  </div>
+</div>

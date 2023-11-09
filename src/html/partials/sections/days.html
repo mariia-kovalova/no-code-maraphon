@@ -1,0 +1,12 @@
+{% set section = days %}
+
+<section class="{{section.id}} section">
+  <div class="container">
+    <h2 class="section-title">{{section.title}}</h2>
+    <ul class="days-slider">
+      {% for slide in section.slides %}
+      <li>{% include 'components/days-slide.html' %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
