@@ -1,8 +1,0 @@
-{% set section = join %}
-
-<section class="{{section.id}} section bg-green">
-  <div class="circle container md:flex md:justify-between smOnly:pb-[260px]">
-    <h2 class="section-title text-white md:w-[318px] xl:w-[646px]">{{section.title}}</h2>
-    {% set formId = section.id %} {% include 'components/section-form.html' %}
-  </div>
-</section>

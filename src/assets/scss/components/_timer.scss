@@ -1,9 +1,0 @@
-.timer {
-  & .counter {
-    @apply text-[20px] font-bold leading-normal;
-  }
-
-  & .text {
-    @apply text-center text-[8px] font-semibold leading-normal;
-  }
-}

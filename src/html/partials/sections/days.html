@@ -1,8 +1,0 @@
-{% set section = days %}
-
-<section class="{{section.id}} section">
-  <div class="container">
-    <h2 class="section-title">{{section.title}}</h2>
-    {% set slides = section.slides %} {% include 'components/days-slider.html' %}
-  </div>
-</section>
