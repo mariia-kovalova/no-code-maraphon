@@ -3344,6 +3344,19 @@ input[type=tel].input-field{
     width: 420px;
   }
 }
+.days-slide.decor:nth-child(odd)::after{
+  height: 166px;
+}
+@media (min-width: 768px){
+  .days-slide.decor:nth-child(odd)::after{
+    height: 218px;
+  }
+}
+@media (min-width: 1280px){
+  .days-slide.decor:nth-child(odd)::after{
+    height: 352px;
+  }
+}
 .days-slide.decor.day-1::after {
   background-image: -webkit-image-set(url("../images/sections/days/day-1@1x.webp") 1x, url("../images/sections/days/day-1@2x.webp") 2x);
   background-image: image-set("../images/sections/days/day-1@1x.webp" 1x, "../images/sections/days/day-1@2x.webp" 2x);
